@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>HRMIS Customer Support Portal</title>
+  <meta name="description" content="HRMIS Customer Support Portal — web module for unified hotel & restaurant support with chat, bookings, and coordination.">
+  <meta name="keywords" content="HRMIS, customer support, hotel, restaurant, React, Spring Boot, MySQL, Docker">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+</head>
+
+<body class="portfolio-details-page">
+
+  <header id="header" class="header d-flex align-items-center fixed-top">
+    <div class="container-fluid position-relative d-flex align-items-center justify-content-between">
+
+      <a href="index.html" class="logo d-flex align-items-center">
+      </a>
+
+      <nav id="navmenu" class="navmenu">
+
+        <div class="profile-img">
+          <img src="assets/img/profile/profile-square-1.webp" alt="" class="img-fluid rounded-circle">
+        </div>
+
+        <a href="index.html" class="logo d-flex align-items-center justify-content-center">
+          <h1 class="sitename">Miththika Samarathunga</h1>
+        </a>
+
+        <ul>
+          <li><a href="index.html#hero">Home</a></li>
+          <li><a href="index.html#about">About</a></li>
+          <li><a href="index.html#skills">Skills &amp; Expertise</a></li>
+          <li><a href="index.html#portfolio">Portfolio</a></li>
+          <li><a href="index.html#services">Services</a></li>
+          <li><a href="index.html#contact">Contact</a></li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+
+    </div>
+  </header>
+
+  <main class="main">
+
+    <div class="page-title light-background">
+      <div class="container d-lg-flex justify-content-between align-items-center">
+        <h1 class="mb-2 mb-lg-0">HRMIS Customer Support Portal</h1>
+        <nav class="breadcrumbs">
+          <ol>
+            <li><a href="index.html">Home</a></li>
+            <li class="current">Portfolio Details</li>
+          </ol>
+        </nav>
+      </div>
+    </div>
+
+    <section id="portfolio-details" class="portfolio-details section">
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <div class="row gy-4">
+          <div class="col-lg-6" data-aos="fade-right">
+            <div class="portfolio-details-media">
+              <div class="main-image">
+                <div class="portfolio-details-slider swiper init-swiper">
+                  <script type="application/json" class="swiper-config">
+                    {
+                      "loop": true,
+                      "speed": 800,
+                      "autoplay": {"delay": 6000},
+                      "effect": "slide",
+                      "slidesPerView": 1,
+                      "navigation": {
+                        "nextEl": ".swiper-button-next",
+                        "prevEl": ".swiper-button-prev"
+                      }
+                    }
+                  </script>
+                  <div class="swiper-wrapper" style="background: transparent !important;">
+                      <div class="swiper-slide" style="background: transparent !important;">
+                        <img src="assets/img/portfolio/restaurant-1.webp" alt="HRMIS Customer Support - Overview" class="img-fluid" style="width:100%;height:auto;max-height:600px;object-fit:contain;display:block;margin:0 auto;">
+                      </div>
+                      <div class="swiper-slide" style="background: transparent !important;">
+                        <img src="assets/img/portfolio/restaurant-2.webp" alt="HRMIS Customer Support - Chat Support" class="img-fluid" style="width:100%;height:auto;max-height:600px;object-fit:contain;display:block;margin:0 auto;">
+                      </div>
+                      <div class="swiper-slide" style="background: transparent !important;">
+                        <img src="assets/img/portfolio/restaurant-3.webp" alt="HRMIS Customer Support - Orders" class="img-fluid" style="width:100%;height:auto;max-height:600px;object-fit:contain;display:block;margin:0 auto;">
+                      </div>
+                      <div class="swiper-slide" style="background: transparent !important;">
+                        <img src="assets/img/portfolio/restaurant-4.webp" alt="HRMIS Customer Support - Dashboard" class="img-fluid" style="width:100%;height:auto;max-height:600px;object-fit:contain;display:block;margin:0 auto;">
+                      </div>
+                      <div class="swiper-slide" style="background: transparent !important;">
+                        <img src="assets/img/portfolio/restaurant-5.webp" alt="HRMIS Customer Support - Insights" class="img-fluid" style="width:100%;height:auto;max-height:600px;object-fit:contain;display:block;margin:0 auto;">
+                      </div>
+                  </div>
+                  <div class="swiper-button-prev"></div>
+                  <div class="swiper-button-next"></div>
+                </div>
+              </div>
+
+              <div class="thumbnail-grid" data-aos="fade-up" data-aos-delay="200">
+                <div class="row g-2 mt-3">
+                  <div class="col-3"><a href="assets/img/portfolio/restaurant-1.webp" class="glightbox" data-glightbox="title: HRMIS - Overview"><img src="assets/img/portfolio/restaurant-1.webp" alt="HRMIS Overview" class="img-fluid"></a></div>
+                  <div class="col-3"><a href="assets/img/portfolio/restaurant-2.webp" class="glightbox" data-glightbox="title: HRMIS - Chat Support"><img src="assets/img/portfolio/restaurant-2.webp" alt="HRMIS Chat" class="img-fluid"></a></div>
+                  <div class="col-3"><a href="assets/img/portfolio/restaurant-3.webp" class="glightbox" data-glightbox="title: HRMIS - Orders"><img src="assets/img/portfolio/restaurant-3.webp" alt="HRMIS Orders" class="img-fluid"></a></div>
+                  <div class="col-3"><a href="assets/img/portfolio/restaurant-4.webp" class="glightbox" data-glightbox="title: HRMIS - Dashboard"><img src="assets/img/portfolio/restaurant-4.webp" alt="HRMIS Dashboard" class="img-fluid"></a></div>
+                </div>
+              </div>
+
+              <div class="tech-stack-badges" data-aos="fade-up" data-aos-delay="300">
+                <span>React.js</span>
+                <span>Spring Boot</span>
+                <span>MySQL</span>
+                <span>Docker</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6" data-aos="fade-left">
+            <div class="portfolio-details-content">
+              <div class="project-meta">
+                <div class="badge-wrapper">
+                  <span class="project-badge">Web Application</span>
+                </div>
+                <div class="date-client">
+                  <div class="meta-item"><i class="bi bi-calendar-check"></i><span>2025</span></div>
+                  <div class="meta-item"><i class="bi bi-people-fill"></i><span>Group Project</span></div>
+                </div>
+              </div>
+
+              <h2 class="project-title">HRMIS Customer Support Portal</h2>
+
+              <div class="project-overview">
+                <p class="lead">
+                  Customer support module of a Hotel & Restaurant Management Information System. Provides unified customer interactions (bookings, restaurant coordination, chat guidance) so staff and guests stay in sync across rooms, dining, and support.
+                </p>
+
+                <div class="accordion project-accordion" id="portfolio-details-projectAccordion">
+                  <div class="accordion-item" data-aos="fade-up">
+                    <h2 class="accordion-header">
+                      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#portfolio-details-collapse-1" aria-expanded="true" aria-controls="collapseOne">
+                        <i class="bi bi-exclamation-circle me-2"></i> Background & Problem
+                      </button>
+                    </h2>
+                    <div id="portfolio-details-collapse-1" class="accordion-collapse collapse show" data-bs-parent="#portfolio-details-projectAccordion">
+                      <div class="accordion-body">
+                        <p>Hotels and restaurants often run separate systems for bookings, dining, staff, and support. This causes gaps (e.g., a dinner request missed because the restaurant is fully booked) and a poor guest experience. The HRMIS customer support module unifies these touchpoints with real-time visibility across departments.</p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="accordion-item" data-aos="fade-up" data-aos-delay="100">
+                    <h2 class="accordion-header">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#portfolio-details-collapse-2" aria-expanded="false" aria-controls="collapseTwo">
+                        <i class="bi bi-lightbulb me-2"></i> Solution (Customer Support Module)
+                      </button>
+                    </h2>
+                    <div id="portfolio-details-collapse-2" class="accordion-collapse collapse" data-bs-parent="#portfolio-details-projectAccordion">
+                      <div class="accordion-body">
+                        <p>Built on microservices with a React.js web front-end and Spring Boot APIs, backed by MySQL and containerized with Docker. The module centralizes guest queries, bookings, and restaurant coordination, with chat support for menu guidance and quick answers. Real-time data keeps reception, kitchen, and service teams aligned.</p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="accordion-item" data-aos="fade-up" data-aos-delay="200">
+                    <h2 class="accordion-header">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#portfolio-details-collapse-3" aria-expanded="false" aria-controls="collapseThree">
+                        <i class="bi bi-stars me-2"></i> Key Features
+                      </button>
+                    </h2>
+                    <div id="portfolio-details-collapse-3" class="accordion-collapse collapse" data-bs-parent="#portfolio-details-projectAccordion">
+                      <div class="accordion-body">
+                        <ul class="feature-list">
+                          <li><i class="bi bi-check2-circle"></i> Unified web support portal for bookings, dining, and guest queries</li>
+                          <li><i class="bi bi-check2-circle"></i> Chat assistance for menu guidance and quick responses</li>
+                          <li><i class="bi bi-check2-circle"></i> Real-time coordination between reception and restaurant teams</li>
+                          <li><i class="bi bi-check2-circle"></i> Microservices APIs (Spring Boot) with MySQL persistence</li>
+                          <li><i class="bi bi-check2-circle"></i> Containerized with Docker for scalable deployment</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="cta-buttons" data-aos="fade-up" data-aos-delay="300">
+                <a href="index.html#portfolio" class="btn-next-project">Back to Portfolio <i class="bi bi-arrow-right"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <footer id="footer" class="footer dark-background">
+    <div class="container">
+      <div class="copyright text-center ">
+        <p><strong class="px-1 sitename">Miththika Samarathunga</strong></p>
+      </div>
+      <div class="social-links d-flex justify-content-center">
+        <a href="https://www.linkedin.com/in/miththika-samarathunga-8a1260241" target="_blank" rel="noopener noreferrer"><i class="bi bi-linkedin"></i></a>
+        <a href="https://github.com/MiththikaSamarathunga" target="_blank" rel="noopener noreferrer"><i class="bi bi-github"></i></a>
+        <a href="https://www.instagram.com/__miththika_ps/" target="_blank" rel="noopener noreferrer"><i class="bi bi-instagram"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/typed.js/typed.umd.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
